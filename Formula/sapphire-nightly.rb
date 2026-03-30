@@ -1,10 +1,10 @@
 class SapphireNightly < Formula
   desc "Terminal-first AI assistant for software development (nightly)"
   homepage "https://github.com/duggal1/Sapphire-cli"
-  url "https://github.com/duggal1/Sapphire-cli/archive/cdd38e92a1be334fa30cf495758712673b0156ce.tar.gz"
-  sha256 "0d1e90a2a93d46208f46e0e4ae535ed46c690614a3f08acca58784297c60b3d5"
+  url "https://github.com/duggal1/Sapphire-cli/archive/68a3f1c65fefe53b157012f9078d5ec6afc23bd7.tar.gz"
+  sha256 "38489014c6efbf1b46acbb2e4c96a125d2e93f2f0b354b6affca7dd0848fd728"
   license "FSL-1.1-MIT"
-  version "0.0.0-nightly-cdd38e9"
+  version "0.0.0-nightly-68a3f1c"
 
   depends_on "go" => :build
 
