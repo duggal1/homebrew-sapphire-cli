@@ -4,12 +4,12 @@ class Sapphire < Formula
   url "https://github.com/duggal1/Sapphire-cli/archive/e699f0413066acfd73cf9a84f69512268f7ec44f.tar.gz"
   sha256 "79331859f2570e64cb64c53d8bddbee54522b9a4320b7fe45b586c4a8f5c6a2a"
   license "FSL-1.1-MIT"
-  version "0.0.0.dev.20260331182524"
+  version "1.1.7.dev.20260331182524"
 
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X github.com/duggal1/Sapphire-cli/internal/version.Version="
+    ldflags = "-s -w -X github.com/duggal1/Sapphire-cli/internal/version.Version=#{version}"
     system "go", "build", *std_go_args(ldflags: ldflags), "."
 
     generate_completions_from_executable(bin/"sapphire", "completion")
