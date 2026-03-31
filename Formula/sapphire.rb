@@ -5,13 +5,13 @@
 class Sapphire < Formula
   desc "A powerful terminal-based AI assistant for developers, providing intelligent coding assistance directly in your terminal."
   homepage "https://github.com/duggal1/Sapphire-cli"
-  version "0.1.5"
+  version "0.1.6"
   license "FSL-1.1-MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/duggal1/Sapphire-cli/releases/download/v0.1.5/sapphire_0.1.5_Darwin_x86_64.tar.gz"
-    sha256 "3af4d436059afcc1c405b922d21237f03fa72b296b6e5ed2fe90b746ed181945"
+    url "https://github.com/duggal1/Sapphire-cli/releases/download/v0.1.6/sapphire_0.1.6_Darwin_x86_64.tar.gz"
+    sha256 "717fd48406fbcd186cf86915aa030725638611c5134afbad87ddb7c16fe4b18e"
 
     define_method(:install) do
       bin.install "sapphire"
@@ -22,8 +22,8 @@ class Sapphire < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/duggal1/Sapphire-cli/releases/download/v0.1.5/sapphire_0.1.5_Darwin_arm64.tar.gz"
-    sha256 "6b08972d16829f9cb3c466d7a19e026e6b76f2284b6126c7616024c224b0076b"
+    url "https://github.com/duggal1/Sapphire-cli/releases/download/v0.1.6/sapphire_0.1.6_Darwin_arm64.tar.gz"
+    sha256 "c861449caabfb3f95330cf15f23135712c034527c0e12b75b811668ec436198b"
 
     define_method(:install) do
       bin.install "sapphire"
