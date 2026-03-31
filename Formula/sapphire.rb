@@ -1,10 +1,10 @@
 class Sapphire < Formula
   desc "Terminal-first AI assistant for software development"
   homepage "https://github.com/duggal1/Sapphire-cli"
-  url "https://github.com/duggal1/Sapphire-cli/archive/1e310b87141195bd8cbe405a86a3c7527a3d383b.tar.gz"
-  sha256 "68b05949d3f49476e142c7cfb1d164815a9032204280b326d0a1cb1fe6986917"
+  url "https://github.com/duggal1/Sapphire-cli/archive/7e615533d84d24e3ae01b326b204ee1b08472719.tar.gz"
+  sha256 "786ea7ae1cbaf349772b52980b8c427331208dc8714dafe988a43bb2a5c15cc1"
   license "FSL-1.1-MIT"
-  version "1.1.7.dev.20260331184324"
+  version "1.1.7.dev.20260331185119"
 
   depends_on "go" => :build
 
